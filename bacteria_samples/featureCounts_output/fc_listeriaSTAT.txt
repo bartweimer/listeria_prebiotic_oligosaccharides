@@ -1,0 +1,12 @@
+"Status" "AACAACCA_S7_L005_unconc_bac.sam.bam" "AACCGAGA_S6_L005_unconc_bac.sam.bam" "AACGCTTA_S5_L005_unconc_bac.sam.bam" "AAGGTACA_S23_L007_unconc_bac.sam.bam" "ACACAGAA_S24_L007_unconc_bac.sam.bam" "ACAGCAGA_S25_L007_unconc_bac.sam.bam" "ACCTCCAA_S26_L007_unconc_bac.sam.bam" "ACGCTCGA_S27_L007_unconc_bac.sam.bam" "ACGTATCA_S20_L007_unconc_bac.sam.bam" "ACTATGCA_S21_L007_unconc_bac.sam.bam" "AGAGTCAA_S22_L007_unconc_bac.sam.bam" "AGATCGCA_S28_L008_unconc_bac.sam.bam" "AGCAGGAA_S29_L008_unconc_bac.sam.bam" "AGTCACTA_S30_L008_unconc_bac.sam.bam" "ATCCTGTA_S31_L008_unconc_bac.sam.bam" "ATTGAGGA_S32_L008_unconc_bac.sam.bam" "CAACCACA_S33_L008_unconc_bac.sam.bam" "CATCAAGT_S8_L005_unconc_bac.sam.bam" "GACTAGTA_S34_L008_unconc_bac.sam.bam"
+"1" "Assigned" 15 11 5 1147413 100131 460478 67727 44917 514464 468756 207531 113078 400436 538365 196562 579 568 50 291
+"2" "Unassigned_Ambiguity" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"3" "Unassigned_MultiMapping" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"4" "Unassigned_NoFeatures" 65 68 33 6171596 634728 3144879 637309 570941 3349458 2660779 1447617 1291487 2612838 2627733 1111525 3444 3635 334 1866
+"5" "Unassigned_Unmapped" 2858694 6796503 8249655 23631002 4266104 18302587 3464074 4814501 22675018 31062263 9614491 14205880 18949680 14294089 6764959 10644654 14004875 27723926 6966139
+"6" "Unassigned_MappingQuality" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"7" "Unassigned_FragmentLength" 1 3 1 81471 8565 65781 9042 10753 81826 117849 38601 49800 94077 38003 22454 93 84 1 55
+"8" "Unassigned_Chimera" 6 2 2 551911 31306 162597 27409 10987 171900 221956 59404 67778 242028 201699 115226 195 230 0 112
+"9" "Unassigned_Secondary" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"10" "Unassigned_Nonjunction" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"11" "Unassigned_Duplicate" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
