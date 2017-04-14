@@ -167,44 +167,5 @@
     write.csv(tags11[[1]], file="edgeR_human_list_p1_t11.csv")
    
     plotMDS(listeria_counts)
---------------------------------------------------------
-# limma differential expression
-# use edgeR inputs, and feed into limma
-library(limma)
-    treatment6_logCPM <- cpm(treatment6_counts, log=TRUE, prior.count=3)
-    fit6 <- lmFit(treatment6_logCPM, design6)
-    fit6 <- eBayes(fit6, trend=TRUE)
-    table6<-topTable(fit6, coef=ncol(design6), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table6, file="limma_difex_t6.csv")
-      
-    treatment7_logCPM <- cpm(treatment7_counts, log=TRUE, prior.count=3)
-    fit7 <- lmFit(treatment7_logCPM, design7)
-    fit7 <- eBayes(fit7, trend=TRUE)
-    table7<-topTable(fit7, coef=ncol(design7), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table7, file="limma_difex_t7.csv")
-    
-    treatment8_logCPM <- cpm(treatment8_counts, log=TRUE, prior.count=3)
-    fit8 <- lmFit(treatment8_logCPM, design8)
-    fit8 <- eBayes(fit8, trend=TRUE)
-    table8<-topTable(fit8, coef=ncol(design8), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table8, file="limma_difex_t8.csv")
-    
-    treatment9_logCPM <- cpm(treatment9_counts, log=TRUE, prior.count=3)
-    fit9 <- lmFit(treatment9_logCPM, design9)
-    fit9 <- eBayes(fit9, trend=TRUE)
-    table9<-topTable(fit9, coef=ncol(design9), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table9, file="limma_difex_t9.csv")
-    
-    treatment10_logCPM <- cpm(treatment10_counts, log=TRUE, prior.count=3)
-    fit10 <- lmFit(treatment10_logCPM, design10)
-    fit10 <- eBayes(fit10, trend=TRUE)
-    table10<-topTable(fit10, coef=ncol(design10), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table10, file="limma_difex_t10.csv")
-    
-    treatment11_logCPM <- cpm(treatment11_counts, log=TRUE, prior.count=3) 
-    fit11 <- lmFit(treatment11_logCPM, design11)
-    fit11 <- eBayes(fit11, trend=TRUE)
-    table11<-topTable(fit11, coef=ncol(design11), sort.by="P", adjust.method="BH", p.value=.05, number=10000)
-    write.csv(table11, file="limma_difex_t11.csv")
     
   
