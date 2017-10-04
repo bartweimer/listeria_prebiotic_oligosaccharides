@@ -68,11 +68,11 @@ fc_listeria<-featureCounts(files=fls,
                              reportReads=FALSE)
 
 
-write.table(x=data.frame(fc_listeria$annotation, stringsAsFactors=FALSE),file="fc_listeriaANNOTAION.txt")
-write.table(x=data.frame(fc_listeria$counts, stringsAsFactors=FALSE),file="fc_listeriaCOUNTS.txt")
-write.table(x=data.frame(fc_listeria$counts_junction, stringsAsFactors=FALSE),file="fc_listeriaCOUNTJUNC.txt")
-write.table(x=data.frame(fc_listeria$targets, stringsAsFactors=FALSE),file="fc_listeriaTARGETS.txt")
-write.table(x=data.frame(fc_listeria$stat, stringsAsFactors=FALSE),file="fc_listeriaSTAT.txt")
+write.table(x=data.frame(fc_listeria$annotation, stringsAsFactors=FALSE),file="featureCounts_output/fc_listeriaANNOTAION.txt")
+write.table(x=data.frame(fc_listeria$counts, stringsAsFactors=FALSE),file="featureCounts_output/fc_listeriaCOUNTS.txt")
+write.table(x=data.frame(fc_listeria$counts_junction, stringsAsFactors=FALSE),file="featureCounts_output/fc_listeriaCOUNTJUNC.txt")
+write.table(x=data.frame(fc_listeria$targets, stringsAsFactors=FALSE),file="featureCounts_output/fc_listeriaTARGETS.txt")
+write.table(x=data.frame(fc_listeria$stat, stringsAsFactors=FALSE),file="featureCounts_output/fc_listeriaSTAT.txt")
 
 # 
 # ==========     _____ _    _ ____  _____  ______          _____  
